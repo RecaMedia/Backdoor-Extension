@@ -1,0 +1,32 @@
+{
+  "name": "backdoor-extension",
+  "version": "0.0.1",
+  "description": "A command-line tool for creating Backdoor extensions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RecaMedia/Backdoor-Extension.git"
+  },
+  "keywords": [
+    "backdoor",
+    "extension",
+    "extensions"
+  ],
+  "author": "Shannon Reca",
+  "license": "GPL-3.0",
+  "bin": {
+    "bkdr-ext": "./index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/RecaMedia/Backdoor-Extension/issues"
+  },
+  "homepage": "https://github.com/RecaMedia/Backdoor-Extension#readme",
+  "dependencies": {
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^2.11.0"
+  }
+}
