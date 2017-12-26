@@ -10,7 +10,7 @@ var sh = require("shelljs");
 var cwd = sh.pwd().stdout;
 var package_dir;
 
-getInstalledPath('backdoor-extension').then((path) => {
+getInstalledPath('bkdr-ext').then((path) => {
   package_dir = path;
   init();
 })
