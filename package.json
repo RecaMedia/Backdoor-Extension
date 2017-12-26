@@ -30,7 +30,7 @@
     "co-prompt": "^1.0.0",
     "commander": "^2.11.0",
     "fs": "0.0.1-security",
-    "get-installed-path": "^3.0.1",
+    "get-module-file": "^0.1.0",
     "path": "^0.12.7",
     "shelljs": "^0.7.8"
   }

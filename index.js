@@ -1,7 +1,7 @@
 #!/usr/bin/env node --harmony
 var co = require('co');
 var fs = require('fs');
-var getInstalledPath = require('get-installed-path');
+var gfm = require('get-module-file');
 var path = require('path');
 var program = require('commander');
 var prompt = require('co-prompt');
@@ -10,7 +10,7 @@ var sh = require("shelljs");
 var cwd = sh.pwd().stdout;
 var package_dir;
 
-getInstalledPath('bkdr-ext').then((path) => {
+gfm.future(__dirname, 'bkdr-ext', '/').then((path) => {
   package_dir = path;
   init();
 })
