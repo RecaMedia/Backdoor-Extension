@@ -1,19 +1,14 @@
 #!/usr/bin/env node --harmony
 var co = require('co');
 var fs = require('fs');
-var gfm = require('get-module-file');
+var filepath = require('filepath');
 var path = require('path');
 var program = require('commander');
 var prompt = require('co-prompt');
 var sh = require("shelljs");
 
 var cwd = sh.pwd().stdout;
-var package_dir;
-
-gfm.future(__dirname, '', '').then((path) => {
-  package_dir = path;
-  init();
-})
+var package_dir = filepath.create(__filename);
 
 function copy(from, to) {
   return new Promise(function (resolve, reject) {
@@ -71,3 +66,5 @@ function init() {
     });
   }).parse(process.argv);
 }
+
+init();

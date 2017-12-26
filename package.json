@@ -29,8 +29,8 @@
     "co": "^4.6.0",
     "co-prompt": "^1.0.0",
     "commander": "^2.11.0",
+    "filepath": "^1.1.0",
     "fs": "0.0.1-security",
-    "get-module-file": "^0.1.0",
     "path": "^0.12.7",
     "shelljs": "^0.7.8"
   }
