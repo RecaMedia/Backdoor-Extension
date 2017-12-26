@@ -8,7 +8,7 @@ var prompt = require('co-prompt');
 var sh = require("shelljs");
 
 var cwd = sh.pwd().stdout;
-var package_dir = filepath.create(__dirname);
+var package_dir = filepath.create(__dirname).path;
 
 function copy(from, to) {
   return new Promise(function (resolve, reject) {
