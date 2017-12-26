@@ -1,6 +1,6 @@
 {
   "name": "bkdr-ext",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A command-line tool for creating BKDR (Backdoor) extensions. Visit http://bkdr.org for more information.",
   "main": "index.js",
   "scripts": {
