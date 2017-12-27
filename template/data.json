@@ -1,0 +1,14 @@
+{
+  "author": [[author]],
+  "bottomPanel": ["bottom.html"],
+  "css": "style.css",
+  "description": [[description]],
+  "icon": "fa fa-cubes",
+  "instructions": "instructions.html",
+  "leftPanel": ["side.html"],
+  "license": [[license]],
+  "name": [[name]],
+  "namespace": [[namespace]],
+  "script": "index.js",
+  "url": [[url]]
+}
